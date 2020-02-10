@@ -1,6 +1,7 @@
 language: python
 python:
 - 3.4
+- 2.7
 
 script: python3 test_fruits.py
 
@@ -11,5 +12,9 @@ branches:
     - /[upt][a-q]*[t]\b//
   except:
     - opt
+
+env:
+  - SIT
+  - UAT
 
 # comments
