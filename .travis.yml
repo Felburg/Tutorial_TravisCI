@@ -10,6 +10,23 @@ env:
 
 script: python3 test_fruits.py
 
+#installation
+  #before install
+  #install
+
+#script
+  #before script
+  #script
+  
+#after script
+  #sucess
+  #failure
+
+#deploy
+  #before deploy
+  #depoly
+  #after deploy
+
 # list of branches
 branches:
   only:
