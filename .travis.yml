@@ -8,15 +8,18 @@ env:
   - SIT
   - UAT
 
-script: python3 test_fruits.py
-
 #installation
   #before install
   #install
+ install:
+  - pip install -r requerements.txt
 
 #script
   #before script
   #script
+  
+script:
+  - python3 test_fruits.py
   
 #after script
   #sucess
