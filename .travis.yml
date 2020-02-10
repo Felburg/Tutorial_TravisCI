@@ -18,9 +18,9 @@ branches:
   except:
     - opt
 
-matrix:
+jobs:
   exclude:
     - python: 3.4
-    - env: SIT
+      env: SIT
 
 # comments
