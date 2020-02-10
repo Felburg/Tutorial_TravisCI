@@ -21,6 +21,6 @@ env:
 jobs:
   include:
     - python: 3.4
-    env: SIT
+      env: SIT
 
 # comments
