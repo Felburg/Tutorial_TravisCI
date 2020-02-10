@@ -17,4 +17,9 @@ env:
   - SIT
   - UAT
 
+matrix:
+  include:
+    - python: 3.4
+    - env: SIT
+
 # comments
