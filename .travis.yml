@@ -19,7 +19,7 @@ branches:
     - opt
 
 jobs:
-  include:
+  exclude:
     - python: 3.4
     - env: SIT
 
