@@ -20,6 +20,10 @@ env:
   
 script:
   - python3 test_fruits.py
+  - mkdir ShortStory
+  - cd ShortStory
+  - touch kkk
+  - echo 5
   
 #after script
   #sucess
