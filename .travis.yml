@@ -8,6 +8,7 @@ script: python3 test_fruits.py
 branches:
   only:
     - master
+    - /[upt][a-q]*[t]\b//
 
 # block list (will not build this list)
 branches:
