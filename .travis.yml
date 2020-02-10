@@ -4,6 +4,10 @@ python:
 - 3.4
 - 2.7
 
+env:
+  - SIT
+  - UAT
+
 script: python3 test_fruits.py
 
 # list of branches
@@ -14,13 +18,9 @@ branches:
   except:
     - opt
 
-env:
-  - SIT
-  - UAT
-
 jobs:
   include:
     - python: 3.4
-      env: SIT
+    - env: SIT
 
 # comments
