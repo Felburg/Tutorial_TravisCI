@@ -11,8 +11,8 @@ env:
 #installation
   #before install
   #install
- install:
-  - pip install -r requerements.txt
+ #install:
+  #- pip install -r requerements.txt
 
 #script
   #before script
