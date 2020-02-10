@@ -3,3 +3,14 @@ python:
 - 3.4
 
 script: python3 test_fruits.py
+
+# safe list (will build only this list)
+branches:
+  only:
+    - master
+
+# block list (will not build this list)
+branches:
+  except:
+    - opt
+
