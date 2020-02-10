@@ -19,6 +19,8 @@ branches:
     - opt
 
 jobs:
+  allow_failiures:
+    - python 2.7
   exclude:
     - python: 3.4
       env: SIT
